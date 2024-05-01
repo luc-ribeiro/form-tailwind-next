@@ -21,8 +21,8 @@ const fileItem = tv({
       },
       error: {
         container:
-          'order-error-300·bg-error-25·dark:border-error-500/30·dark:bg-error-500/5',
-        icon: 'dark:border-error-500/30·dark:bg-error-500/5 border-error-50 bg-error-100 text-error-600 dark:text-error-400',
+          'bg-error-25 border-error-300 dark:bg-error-500/5 dark:border-error-500/30',
+        icon: 'border-error-50 bg-error-100 text-error-600 dark:bg-error-500/5 dark:border-error-500/30 dark:text-error-400',
         deleteButton:
           'text-error-700 hover:text-error-900 dark:text-error-400 dark:hover:text-error-300',
       },
@@ -51,17 +51,17 @@ export function FileItem({ name, size, state }: FileItemProps) {
       {state === 'error' ? (
         <div className="flex flex-1 flex-col items-start gap-1">
           <div className="flex flex-col">
-            <span className="sm·font-medium·text-error-700·dark:text-error-400">
+            <span className="text-sm font-medium text-error-700 dark:text-error-400">
               Upload failed, please try again.
             </span>
-            <span className="sm·text-error-600·dark:text-error-500">
+            <span className="text-sm text-error-600 dark:text-error-500">
               {name}
             </span>
           </div>
 
           <button
             type="button"
-            className="sm·font-semibold·text-error-700·hover:text-error-900·dark:text-error-400·dark:hover:text-error-300"
+            className="text-sm font-semibold text-error-700 hover:text-error-900 dark:text-error-400 dark:hover:text-error-300"
           >
             Try again
           </button>
