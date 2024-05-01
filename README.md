@@ -6,7 +6,8 @@
   <img alt="Project cover." src="design/cover.png" width="80%" />
 </p>
 
-<br/>
+## 💻 Projeto
+Desenvolvimento de interface de uma Dashboard onde foram abordados os fundamentos do Tailwind, estilizações, responsividade com breakpoints pré configurados, dark mode, Tailwind Variants, Radix UI, animações, Framer Motion, pattern de composição, criação de formulários, entre outros.
 
 ## 📝 Live Preview 
 
