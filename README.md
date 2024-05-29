@@ -2,12 +2,19 @@
 
 <br/>
 
+<div align="right">
+  Clique <a href="https://github.com/luc-ribeiro/form-tailwind-next/blob/main/README-PTBR.md">aqui</a> para ver a versão em Português.
+</div>
+
+<br>
+<br>
+
 <p align="center">
-  <img alt="Project cover." src="design/cover.png" width="80%" />
+  <img alt="Project cover" src="design/cover.png" width="80%" />
 </p>
 
-## 💻 Projeto
-Desenvolvimento de interface de uma Dashboard onde foram abordados os fundamentos do Tailwind, estilizações, responsividade com breakpoints pré configurados, dark mode, Tailwind Variants, Radix UI, animações, Framer Motion, pattern de composição, criação de formulários, entre outros.
+## 💻 Project
+Development of a Dashboard interface that covers Tailwind fundamentals, styling, responsiveness with pre-configured breakpoints, dark mode, Tailwind Variants, Radix UI, animations, Framer Motion, composition pattern, form creation, and more.
 
 ## 📝 Live Preview 
 
@@ -15,10 +22,10 @@ Desenvolvimento de interface de uma Dashboard onde foram abordados os fundamento
 
 ## 🎨 Layout
 
-- Você pode verificar o layout [aqui](https://www.figma.com/file/MU3H8HfTxX32ukt8ANpan7/Ignite-Tailwind?type=design&node-id=0%3A1&mode=design&t=8MDN59hWLgltXxOj-1). Você precisará de uma conta no [Figma](https://figma.com) para acessar.
+- You can check the layout [here](https://www.figma.com/file/MU3H8HfTxX32ukt8ANpan7/Ignite-Tailwind?type=design&node-id=0%3A1&mode=design&t=8MDN59hWLgltXxOj-1). You will need a [Figma](https://figma.com) account to access it.
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-- Next
+- Next.js
 - TailwindCSS
 - Radix UI
